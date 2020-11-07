@@ -1,0 +1,39 @@
+.navbar, h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat",sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+h4, h6 {
+    text-transform: none;
+}
+.eSbheu {
+    height: 95%;
+    font-size: 0.9rem;
+    //border: 1px solid rgb(20,157,221) !important;
+}
+.eSbheu .card-subtitle, .eSbheu .card-xheader, .eSbheu .card-footer {
+    font-size: 0.7rem;
+}
+.eSbheu .card-header {
+    background-color: rgba(20,157,221,0.9);
+    color: white;
+}
+.eSbheu .card-img-top {
+    border-radius: 0;
+}
+.eSbheu .card-footer {
+    background-color: rgba(20,157,221,.125);
+}
+.eSwYtm {
+    height: 95%;
+    font-size: 0.9rem;
+}
+.eSwYtm .card-subtitle, .eSwYtm .card-xheader, .eSwYtm .card-footer {
+    font-size: 0.7rem;
+}
+.eSwYtm .card-footer {
+    background-color: rgba(120,217,255,.25);
+}
+.card-footer:last-child {
+    border-radius: 0 0 calc(.25rem - 1px) calc(.25rem - 1px);
+}
